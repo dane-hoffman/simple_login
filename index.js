@@ -18,12 +18,3 @@ const displayText = () => {
 }
 
 window.addEventListener(`load`, displayText);
-
-const userIdCheck = (input) => {
-    if (input === `Dane`){
-        console.log(successMessage);
-    }
-    else {
-        console.log(errorMessage);
-    }
-}
