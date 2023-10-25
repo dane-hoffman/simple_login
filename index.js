@@ -5,7 +5,7 @@ const errorMessage = String `Not Authorized`;
 const successMessage = String `Access Granted`;
 const pageHeader = `Hello World`;
 
-//Constructor?
+//Define Functions
 const displayText = () => {
     const messageSection = document.getElementById("pageHeader");
     messageSection.innerHTML = pageHeader;
@@ -22,4 +22,5 @@ const userIdCheck = (input) => {
     }
 }
 
+//Call Funcitons
 userIdCheck(input);
